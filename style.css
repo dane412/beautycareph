@@ -29,9 +29,10 @@ body{
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
 }
 
-.navbar .logo h1{
-  color: #424144;
-  border-bottom: 4px solid #fd6561; 
+.navbar .logo{
+  image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png);
+  height: 107px;
+  width: 280px;
 }
 
 .navbar .menu li{
