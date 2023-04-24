@@ -10,6 +10,13 @@ body{
 
 /* Header */
 
+.menu-btn{
+  color: #424144;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
 .navbar{
   padding: 20px 5%;
   display: flex;
