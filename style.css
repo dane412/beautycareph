@@ -72,4 +72,5 @@ body{
   justify-content: center;
   align-items: flex-start;
   color: #424144;
+  height: 100vh;
 }
