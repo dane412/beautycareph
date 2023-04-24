@@ -47,3 +47,11 @@ body{
   font-size: 20px;
   font-weight: bold;
 }
+
+.navbar .menu li .active{
+  border-bottom: 4px solid #f63e4e;
+}
+
+.navbar .menu li a i{
+  color: #f63e4e;
+}
