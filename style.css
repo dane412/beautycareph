@@ -29,12 +29,6 @@ body{
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
 }
 
-.navbar .logo{
-  background-image: url('https://raw.githubusercontent.com/dane412/beautycareph/main/beautycarelogosmall.png');
-  height: 105px;
-  width: 40px;
-}
-
 .navbar .menu li{
   list-style: none;
   display: inline-block;
