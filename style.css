@@ -105,11 +105,17 @@ body{
   color: #424144;
 }
 
-/* Items */
+/* Products */
 
 .sec{
   padding: 10px 5%;
 }
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 
 .products .card{
   width: 310px;
