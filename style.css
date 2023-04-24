@@ -97,3 +97,9 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
+
+.pheading{
+  text-align: center;
+  margin: 50px 0;
+  color: #424144;
+}
