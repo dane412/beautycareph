@@ -209,7 +209,7 @@ footer p a{
     transition: all 0.3s ease;
   }
   
-  .navbar .menu .active{
+  .navbar .menu.active{
     left: 0;
   }
 
