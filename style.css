@@ -30,7 +30,7 @@ body{
 }
 
 .navbar .logo{
-  background-image: url('beautycareph/beautycarelogosmall.png');
+  background-image: url('https://raw.githubusercontent.com/dane412/beautycareph/main/beautycarelogosmall.png');
   height: 107px;
   width: 280px;
 }
