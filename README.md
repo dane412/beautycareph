@@ -5,3 +5,5 @@ This is the public repository of a proposed Beauty Care PH website by @dane412, 
 Developed by @dane412. ICT 12 B - BITDEFENDER.
 
 Frontpage image credit: Amy Shamblen on Unsplash 
+
+© 2023 DarkWhite Interactive Studios. All Rights Reserved.
