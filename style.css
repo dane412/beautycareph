@@ -117,7 +117,7 @@ body{
 
 .products .card{
   width: 310px;
- /* background: #f5f5f5; */
+  background: #f5f5f5;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   padding: 5px;
