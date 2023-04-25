@@ -14,7 +14,7 @@ body{
   color: #424144;
   font-size: 23px;
   cursor: pointer;
-  display: block;
+  display: none;
 }
 
 .navbar{
