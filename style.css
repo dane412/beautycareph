@@ -150,6 +150,15 @@ body{
   text-align: center;
 }
 
+/* Paragraph */
+
+.paragraph{
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
 /* Products */
 
 .sec{
