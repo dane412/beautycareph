@@ -150,13 +150,31 @@ body{
   text-align: center;
 }
 
+/* Banner */
+
+.banner{
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+/* Header */
+
+.hparagraph{
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
 /* Paragraph */
 
 .paragraph{
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-left: 15px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
 }
 
 /* Products */
