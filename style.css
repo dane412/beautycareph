@@ -107,7 +107,7 @@ body{
 
 .our-story{
   align-items: flex-start;
-  background-image: url(bg-pic.jpg);
+  background-image: url(our-story-pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #f5f5f5;
@@ -119,12 +119,12 @@ body{
 }
 
 .our-story h1{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .our-story p{
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 10px;
+  margin-top: 10px;
 } 
 
 .our-story button{
