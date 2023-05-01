@@ -212,7 +212,7 @@ footer p a{
     width: 100%;
   }
   
-  .navbar .menu .active{
+  .navbar .menu.active{
     left: 0;
   }
 
