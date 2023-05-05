@@ -209,6 +209,8 @@ body{
 }
 
 /* Contact Form */
+
+/* Text Area */
 input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
@@ -216,8 +218,29 @@ input[type=text], select, textarea{
   border-radius: 20px;
   box-sizing: border-box;
   margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+  
+ /* Submit Button */
+input[type=submit] {
+  background-color: #f63e4e;
+  color: #f5f5f5;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
+input[type=submit]:hover{
+  background-color: #b32e3a;
+}
+
+.container{
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 /* Products */
 
