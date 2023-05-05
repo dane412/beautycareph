@@ -380,9 +380,8 @@ footer p a{
 .map-responsive{
     overflow: hidden;
     padding-bottom: 56.25%;
-    /* position: relative; */
+    position: relative;
     height: 0;
-    margin: auto;
 }
 
 .map-responsive iframe{
@@ -390,7 +389,6 @@ footer p a{
     top: 0;
     height: 100%;
     width: 100%;
-    /* position: absolute; */
-    margin: auto;
+    position: absolute;
   }
 }
