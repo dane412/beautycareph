@@ -208,6 +208,17 @@ body{
   padding-bottom: 15px;
 }
 
+/* Contact Form */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+
 /* Products */
 
 .sec{
