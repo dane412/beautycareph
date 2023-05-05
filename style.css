@@ -380,7 +380,7 @@ footer p a{
 .map-responsive{
     overflow: hidden;
     padding-bottom: 56.25%;
-    position: relative;
+    /* position: relative; */
     height: 0;
     margin: auto;
 }
@@ -390,7 +390,7 @@ footer p a{
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     margin: auto;
   }
 }
