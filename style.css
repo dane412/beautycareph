@@ -232,6 +232,20 @@ input[type=text], select, textarea{
   resize: vertical;
 }
   
+/* Upload Button */
+input[type=file] {
+  background-color: #f63e4e;
+  color: #f5f5f5;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=file]:hover{
+  background-color: #b32e3a;
+}
+
  /* Submit Button */
 input[type=submit] {
   background-color: #f63e4e;
