@@ -154,8 +154,8 @@ body{
 
 .cimg {
   display: block;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
@@ -330,7 +330,6 @@ input[type=submit]:hover{
   font-weight: 900;
   padding: 10px 18px;
   align-items: center;
-  margin-top: 20px;
 }
 
 .btn:hover{
