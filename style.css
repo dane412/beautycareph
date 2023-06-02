@@ -281,11 +281,13 @@ input[type=submit]:hover{
 }
 
 .fa-facebook {
+  align-items: center;
   background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
+  align-items: center;
   background: #55acee;
   color: white;
 }
