@@ -174,10 +174,10 @@ body{
   position: relative;
 }
 
-/* Right */
+/* Center */
 
-.right{
-  text-align: right;
+.center{
+  text-align: center;
   padding-top: 25px;
   padding-right: 30px;
   padding-left: 30px;
