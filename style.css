@@ -150,6 +150,15 @@ body{
   text-align: center;
 }
 
+/* Center Image */
+
+.cimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* Banner */
 
 .banner{
