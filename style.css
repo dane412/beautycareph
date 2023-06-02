@@ -159,6 +159,15 @@ body{
   width: 50%;
 }
 
+/* Center Block */
+
+.cblk {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* Banner */
 
 .banner{
