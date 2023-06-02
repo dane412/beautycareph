@@ -303,7 +303,7 @@ input[type=submit]:hover{
   color: white;
 }
 
-/* Button */
+/* Check Out Button */
 .btn{
   border: 1px solid #f63e4e;
   border-radius: 20px;
@@ -314,6 +314,23 @@ input[type=submit]:hover{
 }
 
 .btn:hover{
+  background-color: #f63e4e;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.checkout button{
+  background: #f63e4e;
+  border: none;
+  border-radius: 40px;
+  color: #f5f5f5;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 15px 30px;
+}
+
+.checkout button:hover{
   background-color: #f63e4e;
   color: #f5f5f5;
   cursor: pointer;
