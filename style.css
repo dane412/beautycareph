@@ -229,7 +229,7 @@ body{
 /* Increment and Decrement Buttons */
 
 .ibutton{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
