@@ -73,8 +73,18 @@ Rosmar Bleaching Whipped Formula carries A+ plant-based extract high in nutritio
     
         plus.addEventListener("click", ()=>{
             a++;
-            console.log("a");
+            a = (a < 10) ? "0" + a : a;
+            num.innerText = a;
+            console.log(a);
         });
+    
+    minus.addEventListener("click", ()=>{
+        if (a > 1){
+            a--;
+            a = (a < 10) ? "0" + a : a;
+            num.innerText = a;
+        }
+    });
     
 </script>
  
