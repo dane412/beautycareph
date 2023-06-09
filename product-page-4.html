@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The Home of Beauty Products">
+    <meta name="keywords" content="Cosmetics, Beauty Products, Lifestyle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <title>Sereese Beauty Intense Whitening Milk Soap | Beauty Care PH</title>
+      <link rel="icon" type="image/x-icon" href="bcph-120x120.png">
+    </head>
+    <body>
+  
+  <nav class="navbar">  
+    <a href="/"><img src="beautycarelogosmall.png" alt="Beauty Care logo" width="105" height="40"></a>
+        <ul class="menu">
+          <li><a href="our-story.html">Our Story</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>    
+          <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      
+      <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+      
+      <div class="hparagraph">Sereese Beauty Whitening Milk Soap</div>
+        
+        <img src="https://cdn.shopify.com/s/files/1/0064/5120/0082/products/SereeseBeautyWhiteningMilkSoap_1024x1024.png?v=1663618579" alt="Sereese Beauty Whitening Milk Soap" class="cimg">
+       
+            <h3 style="text-align:center">Product Description</h3>
+            <div class="paragraph" style="text-align:center">
+                Sereese Beauty whitening soap contains Alpha Arbutin which is the gold standard for 'whitening' in cosmetics because it can help reduce skin blemishes and dark spots.
+              <br>
+                Also vitamin enriched with Niacinamide, which provides the skin’s healthy and Radiant glow.
+              <br>
+                This whitening soap not only lightens skin but keeps it nourished and moisturized with an eco-certified ingredient - Betaine - made from osmolytes that help skin retain vital moisture and maintain cell water balance.
+            </div>
+            
+         <br>
+    
+         <h3 style="text-align:center">Price</h3>
+         <p style="text-align:center">P700.00</p>
+            
+         <br>
+    
+        <h3 style="text-align:center">Stock</h3>
+        <div style="color: #808080; text-align:center;" >3 stocks left</div>
+   
+        <br>
+ 
+        <h3 style="text-align:center">Select Quantity</h3>
+            <div class="ibutton">
+               <div class="wrapper">
+                    <span class="minus">-</span>
+                    <span class="num">01</span>
+                    <span class="plus">+</span>
+               </div>
+            </div>
+
+        <br>
+
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+             <button class="btn">Buy</button>
+        </div>
+
+        <br>
+
+    <!-- Quantity Increment and Decrement Script -->
+   
+    <script>
+         const plus = document.querySelector(".plus"),
+               minus = document.querySelector(".minus"),
+               num = document.querySelector(".num");
+    
+               let a = 1;
+    
+         plus.addEventListener("click", ()=>{
+               a++;
+               a = (a < 10) ? "0" + a : a;
+               num.innerText = a;
+               console.log(a);
+            });
+    
+         minus.addEventListener("click", ()=>{
+               if (a > 1){
+               a--;
+               a = (a < 10) ? "0" + a : a;
+               num.innerText = a;
+                }
+            });
+    </script>
+    
+          </div>
+      </section>
+    
+    <footer>
+        <p>Beauty Care PH © 2023. All Rights Reserved.</p>
+    </footer>
+    
+    <!-- jquery -->
+        <script>
+            $(".menu-btn").click(function (){ 
+               $(".navbar .menu").toggleClass("active");
+               $(".menu-btn i.active").toggleClass("active");
+        });
+    </script>
+
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "115697481511073");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v16.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+  </body>
+</html>
+    
